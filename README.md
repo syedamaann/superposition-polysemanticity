@@ -1,3 +1,14 @@
+
+
+
+https://github.com/user-attachments/assets/4b53e7f7-7c94-480d-99b9-d6e1530cf319
+
+
+
+
+https://github.com/user-attachments/assets/bfdb961b-7524-4aa1-af0b-970656fbc533
+
+
 # Neural Network Superposition and Polysemanticity Visualization
 
 This project visualizes the concepts of superposition and polysemanticity in neural networks through animations of neurons lighting up for different objects.
