@@ -10,21 +10,19 @@ This project visualizes the concepts of superposition and polysemanticity in neu
 
 ## Visualizations
 
-This project includes three different visualizations:
+This project includes two different visualizations:
 
-### 1. Basic Visualization (`neuron_superposition_visualization.py`)
+### 1. Enhanced Superposition Visualization (`enhanced_superposition_visualization.py`)
 
-A simple visualization showing neurons activating for different objects in sequence. This demonstrates the basic concept of neural activation patterns.
-
-### 2. Enhanced Superposition Visualization (`enhanced_superposition_visualization.py`)
-
-A more detailed visualization that:
+A detailed visualization that:
 - Uses color coding to represent different objects (red, green, blue)
 - Explicitly highlights shared neurons between different objects
 - Shows a combined view that demonstrates superposition more clearly
 - Provides a more intuitive understanding of how the same neurons participate in representing multiple objects
+- Features clear explanations and improved spacing for better readability
+- Uses a 7x7 grid layout for clearer visualization of neuron activations
 
-### 3. Polysemanticity Visualization (`polysemanticity_visualization.py`)
+### 2. Polysemanticity Visualization (`polysemanticity_visualization.py`)
 
 A specialized visualization focusing on polysemanticity that:
 - Uses bar charts to clearly show neuron activation levels for each object
@@ -32,6 +30,8 @@ A specialized visualization focusing on polysemanticity that:
 - Highlights polysemantic neurons (those that strongly contribute to multiple objects)
 - Demonstrates through animation how the same neurons participate in representing different objects
 - Progresses through multiple phases to build understanding of the concept
+- Features improved spacing and text placement to avoid overlapping elements
+- Includes detailed explanations of the concept being demonstrated
 
 ## How the Visualizations Work
 
@@ -62,11 +62,6 @@ pip install -r requirements.txt
 
 ### Running Individual Visualizations
 
-For the basic visualization:
-```bash
-python neuron_superposition_visualization.py
-```
-
 For the enhanced superposition visualization:
 ```bash
 python enhanced_superposition_visualization.py
@@ -79,14 +74,14 @@ python polysemanticity_visualization.py
 
 ### Running All Visualizations
 
-To run all three visualizations in sequence:
+To run both visualizations in sequence:
 ```bash
 python run_all_visualizations.py
 ```
 
 This script will:
 1. Run each visualization one after another
-2. Generate all three MP4 files
+2. Generate both MP4 files
 3. Display progress and completion information
 4. Allow you to interrupt a visualization with Ctrl+C to move to the next one
 
@@ -95,7 +90,6 @@ Each script will generate an animation file (`.mp4`) and attempt to display the 
 ## Output Files
 
 The following MP4 files will be generated:
-- `neuron_superposition.mp4` - Basic visualization
 - `enhanced_superposition.mp4` - Enhanced superposition visualization
 - `polysemanticity_visualization.mp4` - Polysemanticity visualization
 
